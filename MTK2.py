@@ -89,12 +89,3 @@ def MTK2_code(text):
                     bytes_mass += ArrayBytesCod[j]
 
     return bytes_mass
-
-
-if __name__ == '__main__':
-    text = "Привет Мир= Hello world1234 Текст (Proverka)"
-    print(text)
-    MtK2 = MTK2_code(text)
-    print(MtK2)
-    text_new = MTK2_decode(MtK2)
-    print(text_new)
